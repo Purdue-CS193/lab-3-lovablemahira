@@ -1,4 +1,5 @@
 public class StringUtils {
+    public static void main(String[] args) {}
     /**
      * makePurdueUsername -- <= 8-letter-long lowercase username creator
      * Usernames may be AT MOST 8 letters in length, and should
@@ -6,6 +7,7 @@ public class StringUtils {
      * amount of their last name that will fit into the remaining
      * 7 characters. All should be lowercase.
      * Ex: a = "Sean ", b = "Flannery", returns "sflanner"
+     * 
      */
     public static String makePurdueUsername(String firstName, String lastName) {
         /* Generate the long version of the name first:
@@ -38,4 +40,5 @@ public class StringUtils {
         /* Replace every instance of the username with proper message */
         return text.replaceAll(username, "[DATA EXPUNDGED]");
     }
+    
 }

@@ -1,4 +1,5 @@
 public class MathUtils {
+    public static void main(String[] args) {}
     /**
      * divideNumbers -- a / b
      * Divide a by b and return the result
