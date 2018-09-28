@@ -1,0 +1,5 @@
+:set number
+:help keyword
+:close
+:saveas file
+:set auto indent
